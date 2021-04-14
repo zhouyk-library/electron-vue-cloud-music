@@ -1,27 +1,27 @@
 <template>
-  <my-icon :type="`icon-${type}`" />
+    <my-icon :type="`icon-${type}`" />
 </template>
 
 <script>
-import { Icon } from 'ant-design-vue'
+import { Icon } from "ant-design-vue";
 
 // let iconURL = 'public/js/icon.js'
-const iconURL = 'https://at.alicdn.com/t/font_1188071_1m1k6mct6ob.js'
+const iconURL = "https://at.alicdn.com/t/font_1188071_1m1k6mct6ob.js";
 // console.log(iconURL)
 
 let MyIcon = Icon.createFromIconfontCN({
-  scriptUrl: iconURL
-})
+    scriptUrl: iconURL,
+});
 
 export default {
-  components: {
-    MyIcon
-  },
-  props: {
-    type: {
-      type: String,
-      required: true
-    }
-  }
-}
+    components: {
+        MyIcon,
+    },
+    props: {
+        type: {
+            type: String,
+            required: true,
+        },
+    },
+};
 </script>

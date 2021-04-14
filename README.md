@@ -3,7 +3,7 @@
 > Electron+Vue+Ant Design Vue仿网易云音乐windows客户端实战
 
 <p align="center">
-  <img src="https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/docs/images/logo.png" width="120">
+  <img src="https://xiaozhu188.github.io/electron-vue-cloud-music/images/logo.png" width="120">
 </p>
 
 <p align="center">
@@ -19,12 +19,10 @@
   <a href="https://github.com/xiaozhu188/electron-vue-cloud-music/releases/latest">
     <img src="https://img.shields.io/github/downloads/xiaozhu188/electron-vue-cloud-music/total.svg?style=flat-square" alt="">
   </a>
-  <a href="https://travis-ci.org/xiaozhu188/electron-vue-cloud-music/builds">
-    <img src="https://www.travis-ci.org/xiaozhu188/electron-vue-cloud-music.svg?branch=master" alt="travis">
-  </a>
 </p>
 
 ## 特点
+* 视频播放器
 * 拖拽播放
 * 桌面歌词
 * mini模式
@@ -50,26 +48,26 @@
 > macOS用户请下载dmg文件，windows用户请下载exe文件，linux用户请下载AppImage文件。
 > 项目当前依赖[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi),感谢NeteaseCloudMusicApi的作者。
 
+## 开发说明
+[开发实战](https://xiaozhu188.github.io/electron-vue-cloud-music)
+
 ## 部分界面预览
+
+![video](https://image-static.segmentfault.com/413/702/4137029073-5ee22a3970f74)
+
 ![mini](https://user-images.githubusercontent.com/20502995/64253818-b014d780-cf50-11e9-8cea-1cccf98fc712.gif)
 
-![mini2](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/mini2.png)
+![mini2](https://image-static.segmentfault.com/380/918/3809182577-5ee22c36dfbca)
 
 ![home](https://user-images.githubusercontent.com/20502995/64253937-ef432880-cf50-11e9-985a-91b486c44807.png)
 
-![view1](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/view1.gif)
+![view1](https://image-static.segmentfault.com/159/184/1591841002-5d77e7746a311)
 
-![view2](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/view2.gif)
+![view2](https://image-static.segmentfault.com/279/203/2792034556-5d77a03ae6936)
 
-![video](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/video.png)
-
-![player](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/player.png)
-
-![playlist](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/playlist.png)
-
-![tray](https://github.com/xiaozhu188/electron-vue-cloud-music/blob/master/screenshot/tray.png)
+![player](https://image-static.segmentfault.com/133/444/1334447915-5d77255b7d91a)
 
 ---
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8fae476](https://github.com/SimulatedGREG/electron-vue/tree/8fae4763e9d225d3691b627e83b9e09b56f6c935) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+This project was generated with [vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) using [vue-cli3](https://cli.vuejs.org/). Documentation about the original structure can be found [here](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
 
